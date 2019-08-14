@@ -10,4 +10,6 @@
 <h2>Appointments:</h2>
   <ul>
     <% @patient.appointments.each do |apmt| %>
+    <li><%= apmt.appointment %></li>
+    <% end %>
   </ul>
